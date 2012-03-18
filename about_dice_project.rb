@@ -15,6 +15,7 @@ class AboutDiceProject < EdgeCase::Koan
   def test_can_create_a_dice_set
     dice = DiceSet.new
     assert_not_nil dice
+#this is my change to the program and git
   end
 
   def test_rolling_the_dice_returns_a_set_of_integers_between_1_and_6
